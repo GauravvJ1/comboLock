@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/QuartusProjects/comboLock/CombonationLock.vhd
+source_file = 1, C:/QuartusProjects/comboLock/Passkey1.vwf
+source_file = 1, C:/QuartusProjects/comboLock/db/CombonationLock.cbx.xml
+source_file = 1, c:/users/gaura/downloads/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/users/gaura/downloads/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/users/gaura/downloads/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/users/gaura/downloads/quartus/libraries/vhdl/ieee/timing_p.vhd
+design_name = combonationLock
+instance = comp, \PIN_Input[3]~I , PIN_Input[3], combonationLock, 1
+instance = comp, \PIN_Input[0]~I , PIN_Input[0], combonationLock, 1
+instance = comp, \PIN_Input[2]~I , PIN_Input[2], combonationLock, 1
+instance = comp, \PIN_Input[1]~I , PIN_Input[1], combonationLock, 1
+instance = comp, \Equal0~0 , Equal0~0, combonationLock, 1
+instance = comp, \Unlock~I , Unlock, combonationLock, 1
